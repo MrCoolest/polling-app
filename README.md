@@ -38,3 +38,33 @@ This is a backend api for creating questions and adding options to a specific qu
 * ExpressJS
 * MongoDB
 * Mongoose ODM
+
+## Directory Structure and flow of The Code
+This code follows MVC pattern and hence everything is differentiated and well managed:
+
+    Polling_system_api
+        |   .gitignore
+        |   app.js
+        |   package-lock.json
+        |   package.json
+        |   README.md
+        |
+        +---assets
+        +---config
+        |       db.js
+        |
+        +---controllers
+        |       home_controller.js
+        |       options_controller.js
+        |       questions_controller.js
+        |
+        +---models
+        |       option.js
+        |       question.js
+        |
+        \---routes
+                index.js
+                options.js
+                questions.js
+
+Happy Coding :)
